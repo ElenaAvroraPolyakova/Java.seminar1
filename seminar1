@@ -19,8 +19,8 @@ public class Printer {
     }
 
 
-Answer ans = new Answer();
-int itresume_res = ans.factorial(n);
-System.out.println(itresume_res);
+    Answer ans = new Answer();
+    int itresume_res = ans.factorial(n);
+    System.out.println(itresume_res);
   }
 }
