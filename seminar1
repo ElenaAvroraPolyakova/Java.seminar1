@@ -1,3 +1,4 @@
+// Задача 1
 class Answer {
   public int factorial(int n) {
 
@@ -24,3 +25,23 @@ public class Printer {
     System.out.println(itresume_res);
   }
 }
+
+
+//Задача 2
+
+class Answer {
+  public static void printEvenNums() {
+
+    for (int i = 2; i <= 100; i += 2) {
+      System.out.println(i);
+    }
+  }
+}
+
+public class Printer {
+  public static void main(String[] args) {
+    Answer ans = new Answer();
+    ans.printEvenNums();
+  }
+}
+
